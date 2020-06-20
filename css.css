@@ -1,3 +1,31 @@
+.topnav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Roboto', 'arial';
+    
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 .logo{ 
     padding-top: 109px;
     display: inline-block;
@@ -6,22 +34,25 @@
     text-align: center;
 }
 
-
 .searchbar{
     border-color:silver;
     font-family: arial, sans-serif;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     margin: auto;
     width: 50%;
     padding: 0 14 5 8;
-    border-style: solid;
+    overflow: auto;
+    border-radius: 6px;
 }
 input {
     width: 375px;
     height: 25px;
 }
-
-#test{
-    
+button{
+    font-family: arial, sans-serif;
 }
+/* Test element CSS
+#test{    
+}
+*/
