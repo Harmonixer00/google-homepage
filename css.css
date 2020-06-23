@@ -51,6 +51,12 @@ input {
 }
 button{
     font-family: arial, sans-serif;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(50%);
 }
 /* Test element CSS
 #test{    
