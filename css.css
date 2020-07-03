@@ -21,9 +21,15 @@ li a{
 .left{
     float: left;
 }
+.left:hover{
+    text-decoration: underline;
+}
 
 .right{
     float: right;
+}
+.right:hover{
+    text-decoration: underline;
 }
 
 .logo{ 
@@ -63,7 +69,7 @@ button{
     color:#707070;
     font-size:15px;
     padding: 10px 20px;
-    margin:5px;
+    margin:0;
     border-radius:4px;
     outline:none;
 }
@@ -74,15 +80,23 @@ button:hover{
     border: 1px solid #c6c6c6;
     color #222;
 }
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
 .footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: grey;
-    color: white;
     text-align: center;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     line-height:40px;
+    font-style: arial, sans-serif;   
 }
