@@ -38,6 +38,7 @@ li a{
     margin: auto;
     width: 100%;
     text-align: center;
+    
 }
 
 .searchbar{
@@ -72,6 +73,8 @@ button{
     margin:0;
     border-radius:4px;
     outline:none;
+    position: relative;
+    top:40px;
 }
 button:hover{
     cursor:pointer;
