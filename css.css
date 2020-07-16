@@ -83,7 +83,12 @@ button:hover{
     border: 1px solid #c6c6c6;
     color #222;
 }
-
+.extra{
+ position: relative;   
+ text-align: center;
+ top:50px;
+ font-size: small;
+}
 #container{
     display: flex;
     flex-direction: row;
